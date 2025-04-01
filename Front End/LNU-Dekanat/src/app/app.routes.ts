@@ -16,6 +16,7 @@ import { ChatPageComponent } from './pages/chat-page/chat-page.component';
 import { scheduled } from 'rxjs';
 import { SchudleLayoutComponent } from './layouts/schudle-layout/schudle-layout.component';
 import { TeacherschedulePageComponent } from './pages/teacherschedule-page/teacherschedule-page.component';
+import { NavantaComponent } from './pages/navanta/navanta.component';
 
 export const routes: Routes = [
 
@@ -62,6 +63,10 @@ export const routes: Routes = [
     {
         path: "TeacherSchedule/:id",
         component: TeacherschedulePageComponent
+    }
+    {
+        path: "Navantazhennya",
+        component: NavantaComponent
     }
 
 ];
